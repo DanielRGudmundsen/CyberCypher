@@ -34,3 +34,6 @@ After the password is generated, it will appear in the text area. You can then c
 - **jQuery dialog boxes:** Improve the user interface by switching from JavaScript prompts and confirm dialog boxes to more user-friendly and aesthetically pleasing jQuery dialog boxes.
 - **Password strength estimator:** An algorithm to estimate and display the strength of the generated password, based on length and character types used.
 - **Copy Password Button** A button that saves the generated password to your clipboard.
+
+## Link to Deployed Application
+https://danielrgudmundsen.github.io/CyberCypher/
