@@ -2,7 +2,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  font-family: 'Courier New', monospace;
+  font-family: 'Courier New', monospace, Arial, Helvetica, sans-serif;
 }
 
 html,
@@ -12,8 +12,7 @@ body,
   margin: 0;
   padding: 0;
   background-color: #121212; /* Dark background */
-  color: #A0FF00; /* Neon green text */
-  font-family: 'Courier New', monospace; 
+  color: #A0FF00; /* Neon green text */ 
 }
 
 .wrapper {
@@ -51,6 +50,10 @@ header {
   min-height: 100px;
 }
 
+#password::placeholder {
+    color: white;
+}
+  
 .card-footer {
   text-align: center;
 }
@@ -105,7 +108,7 @@ button[disabled] {
   border-radius: 6px;
   resize: none;
   overflow: hidden;
-  color: #A0FF00; /* Neon green text */
+  color: #ffffff; /* White text */
   background-color: #121212; /* Dark background */
 }
 
